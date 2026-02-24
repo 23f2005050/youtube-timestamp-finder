@@ -4,7 +4,7 @@ import whisper
 import os
 
 # Load Whisper model once (IMPORTANT for speed)
-whisper_model = whisper.load_model("base")
+whisper_model = whisper.load_model("tiny")
 
 
 def download_audio(url):
